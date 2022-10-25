@@ -1,8 +1,6 @@
 import * as cdk from '@aws-cdk/core';
-import * as s3 from '@aws-cdk/aws-s3';
 import * as ec2 from '@aws-cdk/aws-ec2';
 import * as iam from '@aws-cdk/aws-iam';
-import * as ecs from '@aws-cdk/aws-ecs';
 
 export class AwsCdkEc2Stack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
